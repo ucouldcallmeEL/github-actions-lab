@@ -1,0 +1,10 @@
+name: Hello Agile
+
+on: [push]
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, Agile World!"
